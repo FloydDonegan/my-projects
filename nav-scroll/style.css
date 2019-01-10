@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+}
+
+.section-red{
+    background-color: #ff6666;
+}
+.red-mark{
+background-color: red;
+height:20px;
+width:20px;
+border-radius: 50%;
+margin: auto;
+}
+.section-blue{
+    background-color: #6666ff;
+}
+.blue-mark{
+    background-color: blue;
+    height:20px;
+width:20px;
+border-radius: 50%;
+margin: auto;
+}
+.section-green{
+    background-color: #66ff66;
+}
+.green-mark{
+    background-color: green;
+    height:20px;
+width:20px;
+border-radius: 50%;
+margin: auto;
+}
+.section-purple{
+    background-color: #d966ff;
+}
+.purple-mark{
+    background-color: purple;
+    height:20px;
+width:20px;
+border-radius: 50%;
+margin: auto;
+}
+
+nav{
+    width: 100%;
+  
+}
+
+
+ul{
+    list-style: none;
+ 
+   display: flex;
+   
+    font-size: 40px;
+    position: fixed;
+    bottom: 0;
+    margin-right: 100px;
+    margin:0;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 100px;
+   
+}
+
+li:nth-child(1) a:active{
+    color: red;
+}
+
+li:nth-child(2) a:active{
+    color: blue;
+}
+
+li:nth-child(3) a:active{
+    color: green;
+}
+
+li:nth-child(4) a:active{
+    color: purple;
+}
